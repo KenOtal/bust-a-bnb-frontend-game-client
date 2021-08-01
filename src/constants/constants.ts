@@ -1,0 +1,42 @@
+export const CLIENT_CONNECTED = 'CLIENT_CONNECTED'
+export const CLIENT_DISCONNECTED = 'CLIENT_DISCONNECTED'
+
+// GAME
+export const EXIT_ROUND = 'EXIT_ROUND'
+export const EXIT_ROUND_SUCCESS = 'EXIT_ROUND_SUCCESS'
+export const GAME_CRASHED = 'GAME_CRASHED'
+export const GAME_STARTED = 'GAME_STARTED'
+export const TAKING_BETS = 'TAKING_BETS'
+export const ROUND_IN_PROGRESS = 'ROUND_IN_PROGRESS'
+export const OFF = 'OFF'
+export const COUNT_DOWN = 'COUNT_DOWN'
+export const WALLET_AUTH_CONFIRMATION = 'WALLET_AUTH_CONFIRMATION'
+export const WALLET_AUTH = 'WALLET_AUTH'
+export const GET_CHALLENGE_STRING = 'GET_CHALLENGE_STRING'
+export const CHALLENGE_STRING = 'CHALLENGE_STRING'
+export const GAME_EVENTS = [
+    EXIT_ROUND,
+    GAME_CRASHED,
+    GAME_STARTED,
+    TAKING_BETS,
+    ROUND_IN_PROGRESS,
+]
+export const EXIT_ROUND_BATCH = 'EXIT_ROUND_BATCH'
+
+// ACCOUNT
+export const PLACE_BET = 'PLACE_BET'
+export const BET_ACCEPTED = 'BET_ACCEPTED'
+export const BET_NOT_ACCEPTED = 'BET_NOT_ACCEPTED'
+export const BET_REJECTED = 'BET_REJECTED'
+export const UPDATE_BALANCE = 'UPDATE_BALANCE'
+
+export const ACCOUNT_EVENTS = [BET_ACCEPTED, BET_REJECTED]
+
+// REPORTS
+export const REPORTS_SERVICE_URL = 'http://localhost:3005/reports'
+
+// FOOTER
+export const CRASH_ACTION = 'crash'
+export const PLACE_BET_ACTION = 'placeBet'
+export const MOBILE = 'MOBILE'
+export const TABLET = 'TABLET'
